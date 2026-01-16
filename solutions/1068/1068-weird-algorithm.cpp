@@ -1,18 +1,18 @@
-#include &lt;iostream&gt;
+#include <iostream>
 using namespace std;
 
 int main()
 {
     long long n;
-    cin &gt;&gt; n;
-    cout &lt;&lt; n &lt;&lt; &quot; &quot;;
+    cin >> n;
+    cout << n << " ";
     while (n != 1)
     {
         if (n % 2 == 0)
             n = n / 2;
         else
             n = n * 3 + 1;
-        cout &lt;&lt; n &lt;&lt; &quot; &quot;;
+        cout << n << " ";
     }
     return 0;
 }
